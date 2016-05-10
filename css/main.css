@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+body {
+    font-family: "open sans";
+    font-weight: 300;
+    font-size: 2em;
+}
+
+.container-box {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.btn, input[type="search"] {
+    border-radius: 50px;
+    text-align: center;
+    opacity: 0.9;
+    transition: all 0.5s ease;
+}
+
+.btn {
+    background-color: #4BD286;
+    border: none !important;
+}
+
+.btn:hover {
+    background-color: #3ac175
+}
+
+input:active, input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+input[type="search"]:focus {
+    border-radius: 50px;
+    text-align: center;
+    opacity: 1;
+}
+
+#weather {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+img {
+    display: block;
+    width: 75px;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 500px) {
+    .container-box {
+        width: 300px;
+        margin: 100px auto;
+        
+    }
+    body {
+        height: 100%;
+    }
+    h1 {
+        margin-top: 100px;
+    }
+}
+
+h1 {
+    text-align:center;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+h2 {
+    text-align: center;
+    color:white;
+    margin-top: 50px;
+}
